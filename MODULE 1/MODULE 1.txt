@@ -1,0 +1,29 @@
+MODULE 1
+1.
+touch file
+chmod 777 file
+ls -l file
+
+2.
+touch file_2
+chmod g-w file_2
+ls -l file_2
+
+3.
+mkdir -p dir1/dir2
+touch dir1/dir2/file_3.txt
+ln -s dir1/dir2/file_3.txt dir1/file_l.txt
+
+4.
+ps aux
+
+5.
+mkdir linuxfiles
+cd linuxfiles
+touch f1.txt
+sleep 5
+touch f2.txt
+sleep 5
+touch f3.txt
+ls  -lt  > output.txt
+cat output.txt
